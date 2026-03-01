@@ -523,7 +523,7 @@ article {
     justify-content: center;
     margin-block: 1rem;
 
-    position:absolute a {
+    a {
         display: flex;
         align-items: center;
     }
@@ -557,8 +557,8 @@ article {
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: italic;
-        position: relative;
-        opacity: 0;
+
+     
 
         p {
             margin: auto;
