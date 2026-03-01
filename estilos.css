@@ -419,11 +419,12 @@ article {
     border: 1px solid var(--border);
     border-radius: 1.5rem;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     top: 0;
+
 
 
 
@@ -435,17 +436,21 @@ article {
 
     article {
         background-color: transparent;
+        border: none;
+        border-radius: 0;
         border-bottom: 1px solid var(--border);
     }
 
+    article:last-child {
+        border-bottom: none;
+    }
+
     .resultos-trabajo {
-        width: 50vw;
+
         justify-content: center;
         margin: .5rem 3rem 0 0;
         align-items: center;
         justify-content: space-between;
-        background-color: transparent;
-
     }
 
     button {
@@ -518,7 +523,7 @@ article {
     justify-content: center;
     margin-block: 1rem;
 
-    a {
+    position:absolute a {
         display: flex;
         align-items: center;
     }
