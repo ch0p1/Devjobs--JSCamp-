@@ -536,6 +536,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: none;
     opacity: 0;
 
     small {
@@ -597,7 +598,7 @@ article {
     }
 }
 
-.modal.active {
+.modal_show {
     opacity: 1;
     pointer-events: auto;
 }
