@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    /* Este es el margen*/
+    padding: 0;
+    /* ni puta idea, Busque, y dice que genera espacio entre su interior y su exterior */
+    box-sizing: border-box;
+    /* Tamaño de la caja = tamaño de la ventana */
+}
+
+header {
+    display: flex;
+    /* Orden de los elementos, flex= alineado uno seguido del otro*/
+    justify-content: space-between;
+    background-color: rgb(6, 10, 87);
+    padding: 10px;
+
+
+    h1 {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        border-color: white;
+        border-radius: 5px;
+    }
+
+    .a {
+        margin: auto;
+        color: aliceblue
+    }
+
+    div {
+        font-family: 'Times New Roman', Times, serif;
+        margin: auto;
+        padding: 10px;
+
+    }
+
+    nav a {
+        margin: auto;
+        font-size: 15px;
+
+        align-items: center;
+        background-color: rgb(112, 146, 219);
+        border-radius: 7px;
+        padding: 7px;
+    }
+
+}
+
+
+html {
+    background-color: rgb(118, 44, 255);
+    font-family: arial, sans-serif;
+}
+
+body {
+    font-family: system-ui;
+    background-color: var(--background);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+
+h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 1.25rem;
+
+}
+
+form {
+
+    max-width: 40rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 3, 66);
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 20px 10px 15px rgba(31, 26, 26, 0.1);
+    padding: 25px;
+    gap: 5rem;
+
+    button {
+        background-color: rgb(37, 43, 160);
+        padding: 10px;
+        border-radius: 7px;
+    }
+}
+
+form input[type="text"] {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0.75rem 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
